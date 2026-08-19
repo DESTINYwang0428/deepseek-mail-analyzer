@@ -1,0 +1,18 @@
+# ===== 密钥与环境配置（绝不提交）=====
+.env
+.env.*
+!.env.example
+
+# OAuth 令牌（含 refresh_token）
+.outlook_oauth*.json
+
+# 分析缓存（含邮件内容）
+.mail_analyzer_state.json
+
+# Python
+__pycache__/
+*.pyc
+
+# 日志 / 系统文件
+*.log
+.DS_Store
